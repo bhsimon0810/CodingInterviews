@@ -1,6 +1,6 @@
 # 二维数组中的查找
 
-本文是《剑指Offer》刷题笔记，记录刷题过程中的体会与收获。
+本文是[《剑指Offer》](https://www.nowcoder.com/ta/coding-interviews?page=1)刷题笔记，记录刷题过程中的体会与收获。
 
 ## 题目描述
 

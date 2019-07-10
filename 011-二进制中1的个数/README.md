@@ -48,7 +48,7 @@ int NumberOf1(int n) {
 ```C++
 class Solution {
 public:
-     int  NumberOf1(int n) {
+     int NumberOf1(int n) {
          int count = 0;
          while(n) {
              count++;

@@ -13,7 +13,7 @@
 - 后序遍历：先访问左子节点，再访问右子结点，最后访问根节点
 - 层次遍历：先访问第一层节点，再访问第二层节点...直至最后一层节点
 
-![BinTree](D:\Typora\workspaces\BinaryTrees\BinTree.PNG)
+![BinTree](http://wx4.sinaimg.cn/mw690/a9d96161ly1g562cxxbtcj205y05ymx0.jpg)
 
 按照上述遍历规则，不难得到上图所示二叉树的遍历序列分别为
 
@@ -86,7 +86,7 @@ public:
 };
 ```
 
-## 1.2 中序遍历
+### 1.2 中序遍历
 
 [中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)的访问规则不再赘述，但要注意的是迭代算法中，同样需要借助栈沿着二叉树的左子树一直迭代直至叶节点，然后回退至父节点再访问右子结点，完成中序遍历。递归算法和迭代算法代码示例分别如下所示
 
@@ -152,7 +152,7 @@ public:
 };
 ```
 
-## 1.3 后序遍历
+### 1.3 后序遍历
 
 [后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)的递归算法同样简单直观，代码示例如下
 
@@ -230,7 +230,7 @@ public:
 };
 ```
 
-## 1.4 层次遍历
+### 1.4 层次遍历
 
 
 
